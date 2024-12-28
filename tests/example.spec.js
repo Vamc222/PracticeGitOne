@@ -8,6 +8,7 @@ test('has title', async ({ page }) => {
   await expect(page).toHaveTitle(/Playwright/);
   console.log("practice one");
   console.log("practice two");
+  console.log("practice three");
 });
 
 test('get started link', async ({ page }) => {
